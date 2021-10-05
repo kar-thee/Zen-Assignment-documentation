@@ -1,0 +1,65 @@
+/* #root {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* #link-btn {
+  background-color: goldenrod;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  font-weight: 300;
+} */
+body {
+  background-color: #eee;
+}
+span {
+  font-weight: bolder;
+}
+aside {
+  background-color: lightgrey;
+  max-width: 25% !important;
+  height: fit-content;
+  /* overflow-y: scroll;
+  height: 100vh; */
+}
+/* li {
+  font-size: 1em !important;
+} */
+main ul li {
+  background: url(https://www.tutorialspoint.com/images/icon-bullet.png)
+    no-repeat 0 3px;
+  padding: 0 0 0 19px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 930px) {
+  aside {
+    max-width: 35% !important;
+    background-color: lightgrey;
+    /* overflow-y: scroll;
+    height: 100vh; */
+  }
+}
+@media screen and (max-width: 730px) {
+  aside {
+    max-width: 45% !important;
+    background-color: lightgrey;
+    /* overflow-y: scroll;
+    height: 100vh; */
+  }
+}
+/* @media screen and (max-width: 470px) {
+  aside {
+    max-width: 40% !important;
+    background-color: lightgrey;
+    padding-left: 0;
+  }
+} */
+
+.list-group-item:hover {
+  background-color: rgb(184, 177, 177) !important;
+}
+.active {
+  background-color: rgb(155, 148, 148) !important;
+}
